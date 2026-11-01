@@ -2,7 +2,7 @@
 
 IT 5504 Applied Machine Learning - final assignment. Author: P. A. R. N. Nonis (269154E).
 
-**Live demo:** 
+**Live demo:** https://sri-lankan-domestic-tariff-block-predictor.streamlit.app/
 
 ## The problem
 Will a household's electricity consumption **next month exceed 180 kWh**, the top block of the Sri Lankan domestic tariff?
@@ -42,7 +42,7 @@ The trained model is included in `results_cls/`, so no training is needed.
 
 ## Files
 `app_tariff.py` Streamlit app | `04_tariff_block_classifier.py` main pipeline | `01_build_dataset.py` data preparation |
-`02/03` supplementary experiment (+ `app_survey_regression.py`) | `results_cls/` outputs and saved model | `ML_Assignment_Report.pdf` report |
-`DATASET.md` data description | `docs/DEMO_SCRIPT.md` demo guide | `Dockerfile` container.
+`02/03` supplementary experiment (+ `app_survey_regression.py`) | `results_cls/` outputs and saved model | 
+`DATASET.md` data description | `Dockerfile` container.
 
 Seeds are fixed to 42. The app is for awareness and planning, not billing.
