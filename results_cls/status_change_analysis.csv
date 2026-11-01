@@ -1,0 +1,6 @@
+model,share_rows_changed,acc_changed_rows,acc_unchanged_rows
+Logistic Regression,0.044,0.234,0.984
+Random Forest,0.044,0.221,0.989
+XGBoost,0.044,0.192,0.99
+EBM (main),0.044,0.246,0.983
+Persistence,0.044,0.0,1.0

@@ -1,0 +1,6 @@
+model,RMSE_kWh,MAE_kWh,R2_kWh,R2_log
+Mean baseline,122.25,61.195,-0.06,-0.0
+Ridge,108.744,49.676,0.161,0.301
+Random Forest,104.851,47.064,0.22,0.316
+XGBoost,104.57,46.662,0.225,0.33
+CatBoost,103.412,46.329,0.242,0.334

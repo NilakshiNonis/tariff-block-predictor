@@ -1,0 +1,10 @@
+group,group_by,n,MAE,mean_actual,mean_bias
+SEC A,sec,125,76.8,191.4,-33.3
+SEC B,sec,130,44.1,120.0,-11.7
+SEC C,sec,210,41.1,106.7,-14.7
+SEC D,sec,97,35.8,91.2,-12.2
+SEC E,sec,46,35.3,87.0,-26.6
+Non smart meter,meter_type,289,35.2,97.5,-12.9
+Smart meter,meter_type,319,59.2,146.0,-23.3
+0,has_ac,540,42.5,107.7,-18.0
+1,has_ac,68,89.9,244.5,-21.7

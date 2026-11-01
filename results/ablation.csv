@@ -1,0 +1,2 @@
+setting,RMSE_kWh,MAE_kWh,R2_kWh,R2_log
+without monthly_expenditure,104.834,46.713,0.221,0.337

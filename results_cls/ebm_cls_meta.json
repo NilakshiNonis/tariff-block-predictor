@@ -1,0 +1,152 @@
+{
+ "features": [
+  "lag1",
+  "lag2",
+  "lag3",
+  "roll3",
+  "cal_month",
+  "hh_size",
+  "n_ac",
+  "has_ac",
+  "n_fans",
+  "n_appliances",
+  "app_hours_week",
+  "floor_area",
+  "n_rooms",
+  "n_bedrooms",
+  "app_refrigerator",
+  "app_washing_machine",
+  "mean_hours_home",
+  "sec",
+  "meter_type"
+ ],
+ "num_features": [
+  "lag1",
+  "lag2",
+  "lag3",
+  "roll3",
+  "cal_month",
+  "hh_size",
+  "n_ac",
+  "has_ac",
+  "n_fans",
+  "n_appliances",
+  "app_hours_week",
+  "floor_area",
+  "n_rooms",
+  "n_bedrooms",
+  "app_refrigerator",
+  "app_washing_machine",
+  "mean_hours_home"
+ ],
+ "cat_features": [
+  "sec",
+  "meter_type"
+ ],
+ "cat_levels": {
+  "sec": [
+   "SEC A",
+   "SEC B",
+   "SEC C",
+   "SEC D",
+   "SEC E"
+  ],
+  "meter_type": [
+   "Non smart meter",
+   "Smart meter"
+  ]
+ },
+ "threshold": 180.0,
+ "num_stats": {
+  "lag1": {
+   "min": 1.0,
+   "max": 1406.0,
+   "median": 98.0
+  },
+  "lag2": {
+   "min": 1.0,
+   "max": 1406.0,
+   "median": 98.0
+  },
+  "lag3": {
+   "min": 1.0,
+   "max": 1406.0,
+   "median": 98.0
+  },
+  "roll3": {
+   "min": 1.0,
+   "max": 1406.0,
+   "median": 98.33333333333333
+  },
+  "cal_month": {
+   "min": 1.0,
+   "max": 12.0,
+   "median": 6.0
+  },
+  "hh_size": {
+   "min": 1.0,
+   "max": 13.0,
+   "median": 4.0
+  },
+  "n_ac": {
+   "min": 0.0,
+   "max": 28.0,
+   "median": 0.0
+  },
+  "has_ac": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 0.0
+  },
+  "n_fans": {
+   "min": 0.0,
+   "max": 75.0,
+   "median": 3.0
+  },
+  "n_appliances": {
+   "min": 0.0,
+   "max": 66.0,
+   "median": 12.0
+  },
+  "app_hours_week": {
+   "min": 0.0,
+   "max": 811.12,
+   "median": 190.16
+  },
+  "floor_area": {
+   "min": 100.0,
+   "max": 9000.0,
+   "median": 1000.0
+  },
+  "n_rooms": {
+   "min": 1.0,
+   "max": 32.0,
+   "median": 10.0
+  },
+  "n_bedrooms": {
+   "min": 0.0,
+   "max": 8.0,
+   "median": 2.0
+  },
+  "app_refrigerator": {
+   "min": 0.0,
+   "max": 4.0,
+   "median": 1.0
+  },
+  "app_washing_machine": {
+   "min": 0.0,
+   "max": 3.0,
+   "median": 1.0
+  },
+  "mean_hours_home": {
+   "min": 0.0,
+   "max": 168.0,
+   "median": 130.5
+  }
+ },
+ "cat_mode": {
+  "sec": "SEC C",
+  "meter_type": "Smart meter"
+ },
+ "test_accuracy": 0.9508
+}
