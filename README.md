@@ -9,7 +9,7 @@ Will a household's electricity consumption **next month exceed 180 kWh**, the to
 The model uses the last three months of consumption, the calendar month and a few household traits (RECON-SL dataset, ~4,000 households).
 
 ## Method
-- **Main model:** Explainable Boosting Machine (EBM), an interpretable boosted additive model (not covered in the lectures).
+- **Main model:** Explainable Boosting Machine (EBM), an interpretable boosted additive model.
 - **Benchmarks:** logistic regression, random forest, XGBoost, plus majority-class and "same as last month" baselines.
 - **Evaluation:** time-based split (train / validation / test = earliest / next 3 / final 3 months), rolling-origin stability check, bootstrap intervals.
 - **Explainability:** EBM global importances and shape functions, exact local contributions, LIME cross-check.
